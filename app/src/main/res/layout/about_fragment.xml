@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Приложение для помощи абитуриентам
+\nобратная связь \nпочта : vladik2000@hotmail.com \n
+Авторы:
+команда ВКС
+(Владислав Мельников,
+ Кирилл Ковальков,
+ Вячеслав Жиляев)
+ \nРИ-180001\nИРИТ-РТФ 2019"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="left"/>
+
+</FrameLayout>

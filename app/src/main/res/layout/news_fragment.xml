@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".NewsFragment"
+                android:background="@color/zbs"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical" android:background="@color/zbs">
+            <LinearLayout android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:padding="5dp"
+                                                android:layout_marginBottom="10dp"
+                android:background="@color/seriy" android:orientation="vertical">
+                <ImageView
+                        android:src="@drawable/test_drive"
+                        android:layout_width="match_parent"
+                        android:layout_height="156dp"
+                        android:id="@+id/imageView1"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:textSize="20dp"
+                    android:text="Тест Драйв"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:textSize="14dp"
+                          android:text="Школьники попробовали себя в роли 'Радиоинженера'"/>
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:padding="5dp"
+                          android:layout_marginBottom="10dp"
+                          android:background="@color/seriy" android:orientation="vertical">
+                <ImageView
+                        android:src="@drawable/radisti"
+                        android:layout_width="match_parent"
+                        android:layout_height="156dp"
+                        android:id="@+id/imageView2"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:textSize="20dp"
+                          android:text="Поздравляем!"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:textSize="14dp"
+                          android:text="Преподаватели молодёжного проектного центра Михаил Самарин и Дмитрий Екимов успешно сдали квалификационный экзамен в Союзе радиолюбителей России!"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:padding="5dp"
+                          android:layout_marginBottom="10dp"
+                          android:background="@color/seriy" android:orientation="vertical">
+                <ImageView
+                        android:src="@drawable/proekty"
+                        android:layout_width="match_parent"
+                        android:layout_height="156dp"
+                        android:id="@+id/imageView3"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:textSize="20dp"
+                          android:text="Прошел конкурс студенческих проектов IGIPT"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:textSize="14dp"
+                          android:text="Стали известны лучшие проекты..."/>
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:padding="5dp"
+                          android:layout_marginBottom="10dp"
+                          android:background="@color/seriy" android:orientation="vertical">
+                <ImageView
+                        android:src="@drawable/logo"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:id="@+id/imageView4"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:gravity="center_horizontal"
+                          android:textSize="20dp"
+                          android:text="Россия вперед"/>
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:padding="5dp"
+                          android:layout_marginBottom="10dp"
+                          android:background="@color/seriy" android:orientation="vertical">
+                <ImageView
+                        android:src="@drawable/logo"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:id="@+id/imageView5"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:gravity="center_horizontal"
+                          android:textSize="20dp"
+                          android:text="Россия вперед"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".UrfuFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="\t\tИнститут радиоэлектроники и информационных технологий в рамках научно-технических проектов сотрудничает с ведущими предприятиями региона и страны. Благодаря взаимовыгодному сотрудничеству поддерживается на современном уровне техническое оснащение лабораторий и вычислительных классов.
+\t\tТесные контакты с предприятиями региона позволяют студентам Института радиоэлектроники и информационных технологий проходить практику на крупнейших предприятиях Екатеринбурга и области.
+В институте каждый год проводится ярмарка вакансий, в которой участвуют сотни предприятий региона.
+\t\tЛучшие выпускники Института радиоэлектроники и информационных технологий продолжают своё обучение в аспирантуре УрФУ и УрО РАН.
+В настоящее время в ИРИТ-РТФ обучается более 2200 студентов, работает 254 преподавателя, среди которых 14 академиков и членов-корреспондентов различных академий наук, 27 докторов и 127 кандидатов наук."
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="left"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</FrameLayout>
